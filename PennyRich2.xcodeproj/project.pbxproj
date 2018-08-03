@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C48B6877357B7921ADF780 /* Pods_PennyRich2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6BD3CBC4FDF3A48BA7895E /* Pods_PennyRich2Tests.framework */; };
+		2E66B6E220FFDFD1007B636F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66B6E120FFDFD1007B636F /* AppDelegate.swift */; };
+		2E66B6E420FFDFD1007B636F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66B6E320FFDFD1007B636F /* ViewController.swift */; };
+		2E66B6E720FFDFD1007B636F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E66B6E520FFDFD1007B636F /* Main.storyboard */; };
+		2E66B6E920FFDFD1007B636F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E66B6E820FFDFD1007B636F /* Assets.xcassets */; };
+		2E66B6EC20FFDFD1007B636F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E66B6EA20FFDFD1007B636F /* LaunchScreen.storyboard */; };
+		2E66B6F720FFDFD1007B636F /* PennyRich2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66B6F620FFDFD1007B636F /* PennyRich2Tests.swift */; };
+		2E66B70220FFDFD1007B636F /* PennyRich2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66B70120FFDFD1007B636F /* PennyRich2UITests.swift */; };
+		2EB7040F2112509B00DB27E4 /* PennyRIchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7040E2112509B00DB27E4 /* PennyRIchViewController.swift */; };
+		2EB70411211250D000DB27E4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB70410211250D000DB27E4 /* SignUpViewController.swift */; };
+		2EB70413211250DA00DB27E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB70412211250DA00DB27E4 /* LoginViewController.swift */; };
+		2EB704172112511B00DB27E4 /* MoneyPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB704162112511B00DB27E4 /* MoneyPlansViewController.swift */; };
+		2EB704192112513500DB27E4 /* AccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB704182112513500DB27E4 /* AccountInfoViewController.swift */; };
+		2EF368C62113B356002AA04E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EF368C52113B356002AA04E /* GoogleService-Info.plist */; };
+		6E58FE0CCB9DC20EB2597701 /* Pods_PennyRich2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2826B4341D401EA322AAB70C /* Pods_PennyRich2UITests.framework */; };
+		BB406AA29A277222206B4329 /* Pods_PennyRich2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC384855CCA1806D898703F4 /* Pods_PennyRich2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E66B6F320FFDFD1007B636F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E66B6D620FFDFD1007B636F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E66B6DD20FFDFD1007B636F;
+			remoteInfo = PennyRich2;
+		};
+		2E66B6FE20FFDFD1007B636F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E66B6D620FFDFD1007B636F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E66B6DD20FFDFD1007B636F;
+			remoteInfo = PennyRich2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B503AA7DDD4D3B830BF25E8 /* Pods-PennyRich2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennyRich2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennyRich2Tests/Pods-PennyRich2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		20690D0C58A6189C07DBF0E6 /* Pods-PennyRich2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennyRich2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennyRich2UITests/Pods-PennyRich2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2826B4341D401EA322AAB70C /* Pods_PennyRich2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennyRich2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E66B6DE20FFDFD1007B636F /* PennyRich2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyRich2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E66B6E120FFDFD1007B636F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E66B6E320FFDFD1007B636F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E66B6E620FFDFD1007B636F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E66B6E820FFDFD1007B636F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E66B6EB20FFDFD1007B636F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E66B6ED20FFDFD1007B636F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E66B6F220FFDFD1007B636F /* PennyRich2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyRich2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E66B6F620FFDFD1007B636F /* PennyRich2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyRich2Tests.swift; sourceTree = "<group>"; };
+		2E66B6F820FFDFD1007B636F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E66B6FD20FFDFD1007B636F /* PennyRich2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyRich2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E66B70120FFDFD1007B636F /* PennyRich2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyRich2UITests.swift; sourceTree = "<group>"; };
+		2E66B70320FFDFD1007B636F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6D060D21011B1A0040C385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2EB7040E2112509B00DB27E4 /* PennyRIchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PennyRIchViewController.swift; sourceTree = "<group>"; };
+		2EB70410211250D000DB27E4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2EB70412211250DA00DB27E4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2EB704162112511B00DB27E4 /* MoneyPlansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyPlansViewController.swift; sourceTree = "<group>"; };
+		2EB704182112513500DB27E4 /* AccountInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoViewController.swift; sourceTree = "<group>"; };
+		2EF368C52113B356002AA04E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		361CC8B88B79F2743C06961C /* Pods-PennyRich2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennyRich2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennyRich2UITests/Pods-PennyRich2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B6BD3CBC4FDF3A48BA7895E /* Pods_PennyRich2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennyRich2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76475D405BF28BD5350A7C36 /* Pods-PennyRich2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennyRich2.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennyRich2/Pods-PennyRich2.release.xcconfig"; sourceTree = "<group>"; };
+		7D9658F0A8A06486E0247DD1 /* Pods-PennyRich2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennyRich2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennyRich2/Pods-PennyRich2.debug.xcconfig"; sourceTree = "<group>"; };
+		AC384855CCA1806D898703F4 /* Pods_PennyRich2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennyRich2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03BC073A881256907EA2DB8 /* Pods-PennyRich2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennyRich2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennyRich2Tests/Pods-PennyRich2Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E66B6DB20FFDFD1007B636F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB406AA29A277222206B4329 /* Pods_PennyRich2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66B6EF20FFDFD1007B636F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C48B6877357B7921ADF780 /* Pods_PennyRich2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66B6FA20FFDFD1007B636F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E58FE0CCB9DC20EB2597701 /* Pods_PennyRich2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22207FE36A558FE44297D91B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC384855CCA1806D898703F4 /* Pods_PennyRich2.framework */,
+				4B6BD3CBC4FDF3A48BA7895E /* Pods_PennyRich2Tests.framework */,
+				2826B4341D401EA322AAB70C /* Pods_PennyRich2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E66B6D520FFDFD1007B636F = {
+			isa = PBXGroup;
+			children = (
+				2E66B6E020FFDFD1007B636F /* PennyRich2 */,
+				2E66B6F520FFDFD1007B636F /* PennyRich2Tests */,
+				2E66B70020FFDFD1007B636F /* PennyRich2UITests */,
+				2E66B6DF20FFDFD1007B636F /* Products */,
+				E43406618E3BE34CAA62DC2A /* Pods */,
+				22207FE36A558FE44297D91B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E66B6DF20FFDFD1007B636F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E66B6DE20FFDFD1007B636F /* PennyRich2.app */,
+				2E66B6F220FFDFD1007B636F /* PennyRich2Tests.xctest */,
+				2E66B6FD20FFDFD1007B636F /* PennyRich2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E66B6E020FFDFD1007B636F /* PennyRich2 */ = {
+			isa = PBXGroup;
+			children = (
+				2E66B6E120FFDFD1007B636F /* AppDelegate.swift */,
+				2E66B6E320FFDFD1007B636F /* ViewController.swift */,
+				2EB7040E2112509B00DB27E4 /* PennyRIchViewController.swift */,
+				2EB70410211250D000DB27E4 /* SignUpViewController.swift */,
+				2EB70412211250DA00DB27E4 /* LoginViewController.swift */,
+				2EB704162112511B00DB27E4 /* MoneyPlansViewController.swift */,
+				2EB704182112513500DB27E4 /* AccountInfoViewController.swift */,
+				2E66B6E520FFDFD1007B636F /* Main.storyboard */,
+				2E66B6E820FFDFD1007B636F /* Assets.xcassets */,
+				2E66B6EA20FFDFD1007B636F /* LaunchScreen.storyboard */,
+				2EF368C52113B356002AA04E /* GoogleService-Info.plist */,
+				2E66B6ED20FFDFD1007B636F /* Info.plist */,
+			);
+			path = PennyRich2;
+			sourceTree = "<group>";
+		};
+		2E66B6F520FFDFD1007B636F /* PennyRich2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E66B6F620FFDFD1007B636F /* PennyRich2Tests.swift */,
+				2E66B6F820FFDFD1007B636F /* Info.plist */,
+			);
+			path = PennyRich2Tests;
+			sourceTree = "<group>";
+		};
+		2E66B70020FFDFD1007B636F /* PennyRich2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E66B70120FFDFD1007B636F /* PennyRich2UITests.swift */,
+				2E66B70320FFDFD1007B636F /* Info.plist */,
+			);
+			path = PennyRich2UITests;
+			sourceTree = "<group>";
+		};
+		E43406618E3BE34CAA62DC2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9658F0A8A06486E0247DD1 /* Pods-PennyRich2.debug.xcconfig */,
+				76475D405BF28BD5350A7C36 /* Pods-PennyRich2.release.xcconfig */,
+				0B503AA7DDD4D3B830BF25E8 /* Pods-PennyRich2Tests.debug.xcconfig */,
+				C03BC073A881256907EA2DB8 /* Pods-PennyRich2Tests.release.xcconfig */,
+				361CC8B88B79F2743C06961C /* Pods-PennyRich2UITests.debug.xcconfig */,
+				20690D0C58A6189C07DBF0E6 /* Pods-PennyRich2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E66B6DD20FFDFD1007B636F /* PennyRich2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E66B70620FFDFD1007B636F /* Build configuration list for PBXNativeTarget "PennyRich2" */;
+			buildPhases = (
+				B4FBFC33F0874F442ABCF09A /* [CP] Check Pods Manifest.lock */,
+				2E66B6DA20FFDFD1007B636F /* Sources */,
+				2E66B6DB20FFDFD1007B636F /* Frameworks */,
+				2E66B6DC20FFDFD1007B636F /* Resources */,
+				BDC9D48482057959FBCB3F40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyRich2;
+			productName = PennyRich2;
+			productReference = 2E66B6DE20FFDFD1007B636F /* PennyRich2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E66B6F120FFDFD1007B636F /* PennyRich2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E66B70920FFDFD1007B636F /* Build configuration list for PBXNativeTarget "PennyRich2Tests" */;
+			buildPhases = (
+				F3AE67C5D64465B66A647F8A /* [CP] Check Pods Manifest.lock */,
+				2E66B6EE20FFDFD1007B636F /* Sources */,
+				2E66B6EF20FFDFD1007B636F /* Frameworks */,
+				2E66B6F020FFDFD1007B636F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E66B6F420FFDFD1007B636F /* PBXTargetDependency */,
+			);
+			name = PennyRich2Tests;
+			productName = PennyRich2Tests;
+			productReference = 2E66B6F220FFDFD1007B636F /* PennyRich2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E66B6FC20FFDFD1007B636F /* PennyRich2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E66B70C20FFDFD1007B636F /* Build configuration list for PBXNativeTarget "PennyRich2UITests" */;
+			buildPhases = (
+				0E520201CB96FDB7FB6993DD /* [CP] Check Pods Manifest.lock */,
+				2E66B6F920FFDFD1007B636F /* Sources */,
+				2E66B6FA20FFDFD1007B636F /* Frameworks */,
+				2E66B6FB20FFDFD1007B636F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E66B6FF20FFDFD1007B636F /* PBXTargetDependency */,
+			);
+			name = PennyRich2UITests;
+			productName = PennyRich2UITests;
+			productReference = 2E66B6FD20FFDFD1007B636F /* PennyRich2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E66B6D620FFDFD1007B636F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HGPMac75;
+				TargetAttributes = {
+					2E66B6DD20FFDFD1007B636F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2E66B6F120FFDFD1007B636F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E66B6DD20FFDFD1007B636F;
+					};
+					2E66B6FC20FFDFD1007B636F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E66B6DD20FFDFD1007B636F;
+					};
+				};
+			};
+			buildConfigurationList = 2E66B6D920FFDFD1007B636F /* Build configuration list for PBXProject "PennyRich2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E66B6D520FFDFD1007B636F;
+			productRefGroup = 2E66B6DF20FFDFD1007B636F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E66B6DD20FFDFD1007B636F /* PennyRich2 */,
+				2E66B6F120FFDFD1007B636F /* PennyRich2Tests */,
+				2E66B6FC20FFDFD1007B636F /* PennyRich2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E66B6DC20FFDFD1007B636F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66B6EC20FFDFD1007B636F /* LaunchScreen.storyboard in Resources */,
+				2EF368C62113B356002AA04E /* GoogleService-Info.plist in Resources */,
+				2E66B6E920FFDFD1007B636F /* Assets.xcassets in Resources */,
+				2E66B6E720FFDFD1007B636F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66B6F020FFDFD1007B636F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66B6FB20FFDFD1007B636F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E520201CB96FDB7FB6993DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennyRich2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FBFC33F0874F442ABCF09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennyRich2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC9D48482057959FBCB3F40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PennyRich2/Pods-PennyRich2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PennyRich2/Pods-PennyRich2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AE67C5D64465B66A647F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennyRich2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E66B6DA20FFDFD1007B636F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66B6E420FFDFD1007B636F /* ViewController.swift in Sources */,
+				2EB7040F2112509B00DB27E4 /* PennyRIchViewController.swift in Sources */,
+				2EB704192112513500DB27E4 /* AccountInfoViewController.swift in Sources */,
+				2EB70411211250D000DB27E4 /* SignUpViewController.swift in Sources */,
+				2EB70413211250DA00DB27E4 /* LoginViewController.swift in Sources */,
+				2EB704172112511B00DB27E4 /* MoneyPlansViewController.swift in Sources */,
+				2E66B6E220FFDFD1007B636F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66B6EE20FFDFD1007B636F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66B6F720FFDFD1007B636F /* PennyRich2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E66B6F920FFDFD1007B636F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66B70220FFDFD1007B636F /* PennyRich2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E66B6F420FFDFD1007B636F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E66B6DD20FFDFD1007B636F /* PennyRich2 */;
+			targetProxy = 2E66B6F320FFDFD1007B636F /* PBXContainerItemProxy */;
+		};
+		2E66B6FF20FFDFD1007B636F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E66B6DD20FFDFD1007B636F /* PennyRich2 */;
+			targetProxy = 2E66B6FE20FFDFD1007B636F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E66B6E520FFDFD1007B636F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E66B6E620FFDFD1007B636F /* Base */,
+				2E6D060D21011B1A0040C385 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E66B6EA20FFDFD1007B636F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E66B6EB20FFDFD1007B636F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E66B70420FFDFD1007B636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E66B70520FFDFD1007B636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E66B70720FFDFD1007B636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9658F0A8A06486E0247DD1 /* Pods-PennyRich2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PennyRich2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nooooooooooooooooooooooooooooooooooo.PennyRich2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E66B70820FFDFD1007B636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76475D405BF28BD5350A7C36 /* Pods-PennyRich2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PennyRich2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nooooooooooooooooooooooooooooooooooo.PennyRich2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2E66B70A20FFDFD1007B636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B503AA7DDD4D3B830BF25E8 /* Pods-PennyRich2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PennyRich2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nooooooooooooooooooooooooooooooooooo.PennyRich2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyRich2.app/PennyRich2";
+			};
+			name = Debug;
+		};
+		2E66B70B20FFDFD1007B636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03BC073A881256907EA2DB8 /* Pods-PennyRich2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PennyRich2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nooooooooooooooooooooooooooooooooooo.PennyRich2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyRich2.app/PennyRich2";
+			};
+			name = Release;
+		};
+		2E66B70D20FFDFD1007B636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361CC8B88B79F2743C06961C /* Pods-PennyRich2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PennyRich2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nooooooooooooooooooooooooooooooooooo.PennyRich2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PennyRich2;
+			};
+			name = Debug;
+		};
+		2E66B70E20FFDFD1007B636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20690D0C58A6189C07DBF0E6 /* Pods-PennyRich2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PennyRich2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nooooooooooooooooooooooooooooooooooo.PennyRich2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PennyRich2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E66B6D920FFDFD1007B636F /* Build configuration list for PBXProject "PennyRich2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E66B70420FFDFD1007B636F /* Debug */,
+				2E66B70520FFDFD1007B636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E66B70620FFDFD1007B636F /* Build configuration list for PBXNativeTarget "PennyRich2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E66B70720FFDFD1007B636F /* Debug */,
+				2E66B70820FFDFD1007B636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E66B70920FFDFD1007B636F /* Build configuration list for PBXNativeTarget "PennyRich2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E66B70A20FFDFD1007B636F /* Debug */,
+				2E66B70B20FFDFD1007B636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E66B70C20FFDFD1007B636F /* Build configuration list for PBXNativeTarget "PennyRich2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E66B70D20FFDFD1007B636F /* Debug */,
+				2E66B70E20FFDFD1007B636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E66B6D620FFDFD1007B636F /* Project object */;
+}
